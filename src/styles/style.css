@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-size: 16px;
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  background-color: hsl(36, 100%, 99%);
+}
+.app {
+  padding: 28px 16px 82px;
+}
+.app header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.app header h1 a {
+  display: block;
+  width: 46px;
+  height: 29px;
+  background: url('../assets/images/logo.svg') no-repeat;
+  background-size: contain;
+  font-size: 0;
+}
+.app main article img {
+  width: 100%;
+  height: 100%;
+}
+.app main article h2 {
+  margin-top: 20px;
+  font-size: 41px;
+  line-height: 40px;
+  font-weight: 800;
+}
+.app main article p {
+  margin-top: 20px;
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  line-height: 26px;
+}
+.app main article button {
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  width: 186px;
+  height: 49px;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  margin-top: 25px;
+}
+.app main .new {
+  background-color: hsl(240, 100%, 5%);
+  padding: 22px 22px 0;
+  margin-top: 65px;
+}
+.app main .new h3 {
+  color: hsl(35, 77%, 62%);
+  font-size: 30px;
+}
+.app main .new ul {
+  color: #fff;
+}
+.app main .new ul li {
+  padding: 30px 0;
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+.app main .new ul li h4 {
+  font-size: 20px;
+}
+.app main .new ul li h4 a {
+  color: #fff;
+}
+.app main .new ul li p {
+  font-size: 14px;
+  color: hsl(233, 8%, 79%);
+  margin-top: 10px;
+  line-height: 27px;
+}
+.app main .new ul li:nth-child(3) {
+  border-bottom: none;
+}
+.app main .hot {
+  margin-top: 65px;
+}
+.app main .hot ul li {
+  display: flex;
+  margin-bottom: 35px;
+}
+.app main .hot ul li img {
+  width: 100px;
+  height: 130px;
+  margin-right: 25px;
+}
+.app main .hot ul li .msg h3 {
+  font-size: 31px;
+  color: hsl(5, 85%, 63%);
+}
+.app main .hot ul li .msg h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.app main .hot ul li .msg p {
+  margin-top: 12px;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+  line-height: 25px;
+}
+.app main .hot ul li:last-child {
+  margin-bottom: 0;
+}
