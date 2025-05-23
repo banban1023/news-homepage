@@ -53,10 +53,13 @@ export default {
 .popup-content {
   background: hsl(36, 100%, 99%);
   padding: 150px 25px 0;
-  left: 58px;
-  position: relative;
-  width: 258px;
+  right: 0;
+  position: absolute;
+  min-width: 258px;
   height: 100%;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .popup-close {
@@ -65,7 +68,8 @@ export default {
   right: 12px;
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 65px;
+  font-weight: 200;
   cursor: pointer;
 }
 
