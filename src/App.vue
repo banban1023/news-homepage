@@ -23,7 +23,7 @@
       </nav>
     </header>
     <main>
-      <article aria-labelledb="title">
+      <article aria-labelledby="title">
         <img aria-hidden="true" src="./assets/images/image-web-3-mobile.jpg" alt="">
         <div class="msg">
           <h2 id="title">The Bright Future of Web 3.0?</h2>
