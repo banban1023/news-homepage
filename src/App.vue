@@ -3,7 +3,7 @@
     <header>
       <h1><a href="#">news-homepage</a></h1>
       <nav aria-label="Main Navigation">
-        <button class="mobile-only" aria-controls="nav-popup" @click="showPopup = true">open nav</button>
+        <button type="button" class="mobile-only" aria-controls="nav-popup" @click="showPopup = true">open nav</button>
         <Popup id="nav-popup" v-model="showPopup" class="mobile-only">
           <ul>
             <li><a href="#">Home</a></li>
@@ -31,7 +31,7 @@
             We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
             But is it really fulfilling its promise?
           </p>
-          <button aria-label="Read more about Web 3.0">
+          <button type="button" aria-label="Read more about Web 3.0">
             READ MORE
           </button>
         </div>
